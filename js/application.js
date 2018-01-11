@@ -119,7 +119,7 @@
     {
       name: "DC Taxi",
       thumbImageUrl: "images/portfolio/dctaxi-square.png",
-      imageUrl: "images/portfolio/dc-taxi.png",
+      imageUrl: "images/portfolio/dctaxi.png",
       url: "https://www.dctaxi.com/",
       filters: "ruby-on-rails js",
       info: "We are the taxi drivers of DC. We know the DC streets like the back of our hand. We are insured and vetted by the DC Department of For-Hire Vehicles, have FBI background checks, and an average of 20 years professional driving experience. When you ride with us, you ride with the best drivers in the DC area.",
