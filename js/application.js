@@ -8,6 +8,7 @@
       "company_url": "http://comstar.com.pk/",
       "from": "Jan 2013",
       "to": "May 2014",
+      iconUrl: "images/clients/comstarLogo.png",
     },
     {
       "company_name": "Activa Financial",
@@ -17,6 +18,7 @@
       "company_url": "http://www.activafinancial.com/",
       "from": "May 2014",
       "to": "Feb 2015",
+      iconUrl: "images/clients/activa-logo.png",
     },
     {
       "company_name": "10Pearls",
@@ -26,6 +28,7 @@
       "company_url": "https://10pearls.com/",
       "from": "Feb 2015",
       "to": "Oct 2017",
+      iconUrl: "images/clients/10P.png",
     },
     {
       "company_name": "CreativeChaos",
@@ -35,6 +38,7 @@
       "company_url": "http://www.csquareonline.com",
       "from": "Oct 2017",
       "to": "Current",
+      iconUrl: "images/clients/cc-logo.png",
     },
   ]
   var education_data = [
@@ -68,6 +72,7 @@
       url: "http://www.tutorchatlive.org/",
       filters: "ruby-on-rails js",
       info: "TutorChatLive (TCL) is a 501(c)(3) organization that connects volunteer tutors with middle and high school students through a customized, real-time chat platform on our website.",
+      iconUrl: "images/clients/tutorchatlive.gif",
     },
     {
       name: "SmarterSkin Dermatology",
@@ -76,6 +81,7 @@
       url: "http://www.smarterskindermatology.com/",
       filters: "ruby-on-rails angular-js",
       info: "The average wait time to see a dermatologist is approximately 4-6 weeks throughout the United States and even longer in certain areas. We understand the stress and anxiety of waiting, as well as the unnecessary inconvenience of taking time off of work/school for your appointments. At SmarterSkin, the patient comes first. The service was started by a group of Dermatologists that believe that technology in health care should be embraced. Given the increasing number of patients and shortage of dermatologists, we believe teledermatology allows for access to those who may otherwise have difficulties.",
+      iconUrl: "images/clients/smarterskin.png",
     },
     {
       name: "Medijean",
@@ -83,6 +89,7 @@
       imageUrl: "images/portfolio/medijean3.png",
       url: "http://www.medijean.com/",
       filters: "ruby-on-rails js",
+      iconUrl: "images/clients/medijean.png",
     },
     {
       name: "AlertParent",
@@ -99,6 +106,7 @@
       url: "http://www.novoed.com/",
       filters: "ruby-on-rails angular-js",
       info: "NovoEd, Inc. is a software company on a mission to make online education more effective and engaging. NovoEd creates the most engaging online platform for the modern learner. Our solutions enable our customers to more productively train their employees, partners, customers, and students. Founded at Stanford, NovoEd developed technology to make online learning more like great in-person learning. Our first clients were some of the top business schools, including Stanford GSB, Wharton, and UVA Darden. As millennials became a significant part of the workforce, companies began demanding modern learning solutions built for the mobile, social learner. Now, NovoEd serves organizations around the world that need a better way to teach online – whether it’s employee training, partner enablement, executive education, or university programs.",
+      iconUrl: "images/clients/novoed.png",
     },
     {
       name: "Telmate",
@@ -107,6 +115,7 @@
       url: "https://www.telmate.com/",
       filters: "ruby-on-rails react-js",
       info: "Telmate was founded in 1998 and started its journey as inmate technology experts under the name Pinnacle Public Services. At the time, Pinnacle was providing excellent service and installation to the leading inmate communications solution providers throughout the Northwest. It was through this experience that we recognized a need in the industry for a superior inmate communications solution; one that provides facilities with uncompromising reliability, cutting-edge technology and security, coupled with prompt customer service and repair. Telmate’s innovative solutions not only improve operational efficiencies, but also cater to the changing needs of the corrections sector. Telmate provides services to facilities of all sizes, ranging from holding cells, city jails, county correctional facilities, state DOCs and federal detention centers. Our largest account houses over 18,000 inmates. Telmate is deployed in over 300 correctional facilities in North America spanning nearly all U.S. states and Canadian provinces. Because of our innovations in inmate phone, video, tablet, and offender tracking solutions, Telmate has been recognized as a leading inmate telecom provider in North America. Unlike our competitors, our growth has been entirely organic and a result of the close relationships we foster with our customers. They alone are the best evidence we’re doing the right thing; it is through them that we get the majority of our new customers. We look forward to the opportunity to serve you in the near future.",
+      iconUrl: "images/clients/telmate_logo.png",
     },
     {
       name: "IZEA",
@@ -115,6 +124,7 @@
       url: "https://izea.com/",
       filters: "ruby-on-rails ember-js",
       info: "IZEAx® is an influencer marketing platform for agencies and brands that automates influencer and content marketing programs. Our platform eliminates time consuming processes, streamlines workflow and provides robust enterprise features designed for high volume execution of campaigns.",
+      iconUrl: "images/clients/izea-retina.png",
     },
     {
       name: "DC Taxi",
@@ -123,6 +133,7 @@
       url: "https://www.dctaxi.com/",
       filters: "ruby-on-rails js",
       info: "We are the taxi drivers of DC. We know the DC streets like the back of our hand. We are insured and vetted by the DC Department of For-Hire Vehicles, have FBI background checks, and an average of 20 years professional driving experience. When you ride with us, you ride with the best drivers in the DC area.",
+      iconUrl: "images/clients/taxiapp.png",
     },
     {
       name: "Checkup & Choices",
@@ -131,6 +142,7 @@
       url: "http://checkupandchoices.com/",
       filters: "react-js",
       info: "Pioneered by acclaimed clinical researcher, Reid K. Hester, Ph.D., our evidence-based tools are the culmination of years of rigorous research, millions of dollars of National Institutes of Health grants, multiple randomized clinical trials, and peer-reviewed publications. If you’re wondering about your drinking, you’ve come to the right place. Many people question their own alcohol use, and there’s no shortage of opinions out there about how much is too much. CheckUp & Choices is a scientifically proven program designed to help people assess and, if necessary, address their drinking. The program begins with a free, 10 question, clinically validated questionnaire that will provide solid feedback about your drinking, and relevant options for you, should you decide to change your drinking or take a deeper look at why you drink.",
+      iconUrl: "images/clients/checkupandchoices-logo-2.png",
     },
     {
       name: "SabihRehmani.com",
@@ -145,7 +157,8 @@
       imageUrl: "images/portfolio/lendinghome.png",
       url: "https://www.lendinghome.com/",
       filters: "ruby-on-rails js react-js",
-      info: "We all dream of owning a home, but there’s something giving many of us pause—the thought of going through the obstacle course of getting a mortgage. It’s much harder than it should be to get a “home, sweet home” of our own. Why? Because the current process thrives on chaos and confusion. So much so that it leaves homebuyers overwhelmed and stressed out. Should it really be this difficult to put a roof over your head? A roof that you own? No. And that’s why we’re here. We’re out to simplify the complex world of mortgages. We know this is the moment you’ve been saving for. And we know buying a home is much more than a decision you live with—it’s a decision you live in. The path to homeownership is a big deal. So let’s fill it with clarity. With candor. And, in the process, let’s fill you with confidence. Let’s give you some control. We have the expertise and online tools homebuyers need to put them on a path that seamlessly takes them from pre-approval to contract to closing. All with the straightforward information and honest guidance they need to feel involved and empowered along the way. We’re LendingHome. We’re on a mission to revolutionize the world of mortgages and put the power, and the keys, where they belong—in your hands."
+      info: "We all dream of owning a home, but there’s something giving many of us pause—the thought of going through the obstacle course of getting a mortgage. It’s much harder than it should be to get a “home, sweet home” of our own. Why? Because the current process thrives on chaos and confusion. So much so that it leaves homebuyers overwhelmed and stressed out. Should it really be this difficult to put a roof over your head? A roof that you own? No. And that’s why we’re here. We’re out to simplify the complex world of mortgages. We know this is the moment you’ve been saving for. And we know buying a home is much more than a decision you live with—it’s a decision you live in. The path to homeownership is a big deal. So let’s fill it with clarity. With candor. And, in the process, let’s fill you with confidence. Let’s give you some control. We have the expertise and online tools homebuyers need to put them on a path that seamlessly takes them from pre-approval to contract to closing. All with the straightforward information and honest guidance they need to feel involved and empowered along the way. We’re LendingHome. We’re on a mission to revolutionize the world of mortgages and put the power, and the keys, where they belong—in your hands.",
+      iconUrl: "images/clients/lh-logo-2.png",
     },
   ]
 // Data
@@ -210,9 +223,22 @@ $(document).ready(function(){
       returnHtml += "</div></div><!-- / single work -->"
     });
     $(".all-projects").html(returnHtml);
-  }
+  };
+
+  function renderClients() {
+    var returnHtml = "";
+    $.each(experience_data.concat(projects_data), function(index, client) {
+      if(client.iconUrl){
+        returnHtml += "<div class='col-md-2 col-xs-6'>";
+        returnHtml += "<img src='" + client.iconUrl + "' class='img-responsive' />";
+        returnHtml += "</div>";
+      }
+    });
+    $(".clients").html(returnHtml);
+  };
 
   renderExperience();
   renderEducation();
   renderProjects();
+  renderClients();
 });
