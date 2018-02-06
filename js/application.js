@@ -1,5 +1,5 @@
 // Data
-  var experience_data = [
+  var experienceData = [
     {
       "company_name": "Comstar",
       "designation": "Software Engineer",
@@ -41,7 +41,7 @@
       iconUrl: "images/clients/cc-logo.png",
     },
   ]
-  var education_data = [
+  var educationData = [
     {
       "name": "Bachelors of Computer Science",
       "institute_name": "Sir Syed University of Engineering & Technology",
@@ -64,7 +64,7 @@
       "to": "2016",
     },
   ]
-  var projects_data = [
+  var projectsData = [
     {
       name: "Tutor Chat Live",
       thumbImageUrl: "images/portfolio/tutorchatliveorg-square.png",
@@ -161,12 +161,94 @@
       iconUrl: "images/clients/lh-logo-2.png",
     },
   ]
+  var certifiatesData = [
+    {
+      name: "ES6: Udemy",
+      imagePath: "images/certificates/sarmad_sabih_es6_certificate.jpg",
+    },
+    {
+      name: "Strategic Visions Workshop",
+      imagePath: "images/certificates/sarmad_sabih_timelenders_workshop_certificate.jpeg",
+    },
+    {
+      name: "SPA with AngularJS: Coursera",
+      imagePath: "images/certificates/sarmad_sabih_coursera_angular_js_certificate.jpg",
+    },
+    {
+      name: "Ruby on Rails, Web Services & MongoDB: Coursera",
+      imagePath: "images/certificates/sarmad_sabih_coursera_ruby_on_rails_web_services_mongo_db_certificate.jpg",
+    },
+    {
+      name: "Ruby on Rails: Coursera",
+      imagePath: "images/certificates/sarmad_sabih_ruby_on_rails_certificate.jpg",
+    },
+    {
+      name: "HTML, CSS & JS: Coursera",
+      imagePath: "images/certificates/sarmad_sabih_coursera_html_css_js_certificate.jpg",
+    },
+    {
+      name: "Rails, ActiveRecord & ActionPack: Coursera",
+      imagePath: "images/certificates/sarmad_sabih_rails_active_record_and_action_pack_certificate.jpg",
+    },
+    {
+      name: "NodeJS: SitePoint",
+      imagePath: "images/certificates/sarmad_sabih_nodejs_certficate.jpg",
+    },
+    {
+      name: "Ruby: SitePoint",
+      imagePath: "images/certificates/sarmad_sabih_ruby_certificate.jpg",
+    },
+    {
+      name: "Morernizr 3",
+      imagePath: "images/certificates/sarmad_sabih_modernizr_3_certificate.jpg",
+    },
+    {
+      name: "Microsoft Specialist",
+      imagePath: "images/certificates/sarmad_sabih_ms_specialist_2.jpg",
+    },
+    {
+      name: "Microsoft Certified Solutions Developer",
+      imagePath: "images/certificates/sarmad_sabih_mcsd.jpg",
+    },
+    {
+      name: "Microsoft Certified Professional",
+      imagePath: "images/certificates/sarmad_sabih_mcp.jpg",
+    },
+    {
+      name: "Microsoft Specialist",
+      imagePath: "images/certificates/sarmad_sabih_ms_specialist.jpeg",
+    },
+    {
+      name: "ASP.NET App Development",
+      imagePath: "images/certificates/sarmad_sabih_ms_asp_net_application_development.jpeg",
+    },
+    {
+      name: "SQL Server Database Development",
+      imagePath: "images/certificates/sarmad_sabih_ms_sql_database_development.jpeg",
+    },
+    {
+      name: ".NET Application Development",
+      imagePath: "images/certificates/sarmad_sabih_ms_net_application_development_foundation.jpeg",
+    },
+    {
+      name: "IT Fair 7th Semester",
+      imagePath: "images/certificates/sarmad_sabih_it_fair_7th_semester.jpeg",
+    },
+    {
+      name: "IT Fair 5th Semester",
+      imagePath: "images/certificates/sarmad_sabih_it_fair_5th_semester.jpeg",
+    },
+    {
+      name: "IT Fair 1st Semester",
+      imagePath: "images/certificates/sarmad_sabih_it_fair_1st_semester.jpeg",
+    },
+  ];
 // Data
 
 $(document).ready(function(){
   function renderExperience() {
     var returnHtml = ""
-    $.each(experience_data.reverse(), function(index, experience) {
+    $.each(experienceData.reverse(), function(index, experience) {
       returnHtml += "<!-- single experience -->";
       returnHtml += "<div class='experience-content'>";
       returnHtml += "<span class='period-experience'>" + experience.from + " - " + experience.to + "</span>";
@@ -186,7 +268,7 @@ $(document).ready(function(){
 
   function renderEducation() {
     var returnHtml = ""
-    $.each(education_data, function(index, education) {
+    $.each(educationData, function(index, education) {
       returnHtml += "<!-- single education -->";
       returnHtml += "<div class='col-sm-4'>";
       returnHtml += "<div class='education-content'>";
@@ -213,7 +295,7 @@ $(document).ready(function(){
 
   function renderProjects() {
     var returnHtml = "";
-    $.each(projects_data, function(index, project) {
+    $.each(projectsData, function(index, project) {
       returnHtml += "<!-- single work --><div class='col-sm-6'><div class='item-portfolio " + project.filters + "'><div class='item-overlay'>";
       returnHtml += "<div class='item-content'><span class='icon-search'>";
       returnHtml += "<a class='work-popup' href='" + project.imageUrl + "' data-group='1'><i class='fa fa-search' aria-hidden='true'></i></a>";
@@ -227,7 +309,7 @@ $(document).ready(function(){
 
   function renderClients() {
     var returnHtml = "";
-    $.each(experience_data.concat(projects_data), function(index, client) {
+    $.each(experienceData.concat(projectsData), function(index, client) {
       if(client.iconUrl){
         returnHtml += "<div class='col-md-2 col-xs-6'>";
         returnHtml += "<img src='" + client.iconUrl + "' class='img-responsive' />";
@@ -237,8 +319,35 @@ $(document).ready(function(){
     $(".clients").html(returnHtml);
   };
 
+  function renderCertificates() {
+    var returnHtml = "";
+    var clearFix = 0;
+    $.each(certifiatesData, function(index, certificate) {
+      clearFix += 1;
+      returnHtml += "<div class='col-sm-4'>"
+      returnHtml += "<div class='item-portfolio'>"
+      returnHtml += "<div class='item-overlay'>"
+      returnHtml += "<div class='item-content'>"
+      returnHtml += "<span class='icon-search'>"
+      returnHtml += "<a class='work-popup' href='" + certificate.imagePath + "' data-group='1'><i class='fa fa-search' aria-hidden='true'></i></a>"
+      returnHtml += "</span>"
+      returnHtml += "<h3>" + certificate.name + "</h3>"
+      returnHtml += "</div>"
+      returnHtml += "</div>"
+      returnHtml += "<img src='" + certificate.imagePath + "' alt=''>"
+      returnHtml += "</div>"
+      returnHtml += "</div>"
+      if(clearFix === 3) {
+        returnHtml += "<div class='clearfix'></div>";
+        clearFix = 0;
+      }
+    });
+    $(".certificates").html(returnHtml);
+  };
+
   renderExperience();
   renderEducation();
   renderProjects();
   renderClients();
+  renderCertificates();
 });
