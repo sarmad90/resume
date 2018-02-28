@@ -243,6 +243,35 @@
       imagePath: "images/certificates/sarmad_sabih_it_fair_1st_semester.jpeg",
     },
   ];
+  var facebookEmbeds = [
+    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fumerufaq%2Fposts%2F10208123152823787&width=500" width="500" height="664" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsyedsarmadsabih%2Fposts%2F10155877146981727&width=500" width="500" height="502" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10154369785121727%26set%3Da.10153175535171727.1073741849.709951726%26type%3D3&width=500" width="500" height="337" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10152011858356727%26set%3Da.493398561726.268594.709951726%26type%3D3&width=500" width="500" height="614" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsyedsarmadsabih%2Fposts%2F10152956057966727&width=500" width="500" height="595" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10152001056356727%26set%3Da.10152001008011727.1073741834.709951726%26type%3D3&width=500" width="500" height="338" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10152008143061727%26set%3Da.10150435598781727.352615.709951726%26type%3D3&width=500" width="500" height="444" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153258708271727%26set%3Da.10153175535171727.1073741849.709951726%26type%3D3&width=500" width="500" height="338" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153258708306727%26set%3Da.10153175535171727.1073741849.709951726%26type%3D3&width=500" width="500" height="338" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153368386501727%26set%3Da.10153175535171727.1073741849.709951726%26type%3D3&width=500" width="500" height="472" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153368386486727%26set%3Da.10153175535171727.1073741849.709951726%26type%3D3&width=500" width="500" height="594" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsyedsarmadsabih%2Fposts%2F10153553863431727&width=500" width="500" height="452" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153297355521727%26set%3Da.493398561726.268594.709951726%26type%3D3&width=500" width="500" height="380" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+  ]
+  var interestEmbeds = [
+    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fkarachibodybuilding%2Fposts%2F471265096396593&width=500" width="500" height="626" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153324922171727%26set%3Dp.10153324922171727%26type%3D3&width=500" width="500" height="380" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsyedsarmadsabih%2Fposts%2F10153027198366727&width=500" width="500" height="503" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153175533426727%26set%3Da.10153175535171727.1073741849.709951726%26type%3D3&width=500" width="500" height="502" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153651794211727%26set%3Da.10150435598781727.352615.709951726%26type%3D3&width=500" width="500" height="486" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153186064381727%26set%3Da.10153175535171727.1073741849.709951726%26type%3D3&width=500" width="500" height="361" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153929946996727%26set%3Da.10153175535171727.1073741849.709951726%26type%3D3&width=500" width="500" height="337" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsyedsarmadsabih%2Fposts%2F10153332867156727&width=500" width="500" height="499" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153700886491727%26set%3Da.10153699129616727.1073741853.709951726%26type%3D3&width=500" width="500" height="501" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153711573436727%26set%3Da.10153699129616727.1073741853.709951726%26type%3D3&width=500" width="500" height="473" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153709553151727%26set%3Da.10153699129616727.1073741853.709951726%26type%3D3&width=500" width="500" height="380" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153707076131727%26set%3Da.10153699129616727.1073741853.709951726%26type%3D3&width=500" width="500" height="502" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+  ];
 // Data
 
 $(document).ready(function(){
@@ -345,9 +374,45 @@ $(document).ready(function(){
     $(".certificates").html(returnHtml);
   };
 
+  function renderFacebookEmbeds() {
+    var returnHtml = "";
+    var clearFix = 0;
+    $.each(facebookEmbeds, function(index, post) {
+      clearFix += 1;
+      returnHtml += '<div class="col-md-6 col-xs-12">';
+      returnHtml += post;
+      returnHtml += '</div>';
+      if(clearFix === 2) {
+        returnHtml += "<div class='clearfix'></div>";
+        clearFix = 0;
+      }
+    });
+    $("#facebook .row").html(returnHtml);
+  };
+
+  function renderInterestEmbeds() {
+    var returnHtml = "";
+    var clearFix = 0;
+    $.each(interestEmbeds, function(index, post) {
+      clearFix += 1;
+      returnHtml += '<div class="col-md-6 col-xs-12">';
+      returnHtml += post;
+      returnHtml += '</div>';
+      if(clearFix === 2) {
+        returnHtml += "<div class='clearfix'></div>";
+        clearFix = 0;
+      }
+    });
+    $("#interests .interest-embeds").html(returnHtml);
+  };
+
+
+
   renderExperience();
   renderEducation();
   renderProjects();
   renderClients();
   renderCertificates();
+  renderFacebookEmbeds();
+  renderInterestEmbeds();
 });
