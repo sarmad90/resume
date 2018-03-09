@@ -272,6 +272,97 @@
     '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153709553151727%26set%3Da.10153699129616727.1073741853.709951726%26type%3D3&width=500" width="500" height="380" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
     '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153707076131727%26set%3Da.10153699129616727.1073741853.709951726%26type%3D3&width=500" width="500" height="502" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
   ];
+
+  var blogs = [
+    {
+      source: "Medium",
+      date: "May 27, 2016",
+      title: "Why I enjoy losing out in quizzes to my 6 years...",
+      url: "https://medium.com/@sarmadsabih/why-i-enjoy-losing-out-in-quizzes-to-my-6-years-younger-sister-b7a2c442c31e",
+      preview: "My younger sister has just beaten the sh** out of me in a quiz app. I’m a Senior Software Engineer at one of the best software houses in Pakistan. And my 6 years younger sister has...",
+      image: "images/blogs/sarmad_sabih_losing_in_quizzes_to_sister.jpeg",
+    },
+    {
+      source: "SitePoint",
+      date: "June 20, 2016",
+      title: "DRY Up Your Model Validations Tests",
+      url: "https://www.sitepoint.com/quick-tip-dry-up-your-model-validations-tests/",
+      preview: "I was working on an application and needed to test the models, which is a pretty normal practice. I had to repeat validation tests for each field and each model resulting in lots of duplicated...",
+      image: "images/blogs/sarmad_sabih_dry_model_validation.jpg",
+    },
+    {
+      source: "SitePoint",
+      date: "June 27, 2016",
+      title: "Deliver the Mail with Amazon SES and Rails",
+      url: "https://www.sitepoint.com/deliver-the-mail-with-amazon-ses-and-rails/",
+      preview: "Amazon Simple Email Service (Amazon SES) is a cost-effective email service built on the reliable and scalable infrastructure that Amazon.com developed to serve its own customer...",
+      image: "images/blogs/sarmad_sabih_ses_with_rails.png",
+    },
+    {
+      source: "SitePoint",
+      date: "October 24, 2016",
+      title: "Continuous Deployment of Rails with SemaphoreCI",
+      url: "https://www.sitepoint.com/continous-deployment-of-rails-with-semaphoreci/",
+      preview: "Our goal today is to setup a Rails project which uses Semaphore CI to test the project and then deploy automatically to an Amazon EC2 server using Capistrano. We’ll be using Nginx, Puma...",
+      image: "images/blogs/sarmad_sabih_ci_semaphore_rails.png",
+    },
+    {
+      source: "SitePoint",
+      date: "September 12, 2016",
+      title: "10 Ruby on Rails Best Practices",
+      url: "https://www.sitepoint.com/10-ruby-on-rails-best-practices-3/",
+      preview: "Ruby on Rails is a web application framework, we all know that. Rails makes us more productive and lets us focus on the task at hand rather than the technology. But sticking to best...",
+      image: "images/blogs/sarmad_sabih_10_ror_best_practices.jpeg",
+    },
+    {
+      source: "Medium",
+      date: "Nov 14, 2016",
+      title: "60 Miles",
+      url: "https://www.sitepoint.com/10-ruby-on-rails-best-practices-3/",
+      preview: "Life, what seems like is no more than a 60–70 Miles journey on average, that too if you’re lucky. A journey where everybody starts at “zero” and travels the way ahead to their last breathe. People...",
+      image: "images/blogs/sarmad_sabih_60miles.jpeg",
+    },
+    {
+      source: "Medium",
+      date: "May 18, 2017",
+      title: "Law & order in Pakistan: son of Provincial Assembly...",
+      url: "https://medium.com/@sarmadsabih/law-order-in-pakistan-son-of-provincial-assembly-speaker-allegedly-kills-man-while-drunk-driving-11d11d9421cb",
+      preview: "Son of Agha Siraj Durrani – Speaker of Sindh Assembly (Provincial assembly of Pakistan) got himself involved in an accident last night while allegedly being drunk which took the life of a man.",
+      image: "images/blogs/sarmad_sabih_law_and_order_pakistan.jpg",
+    },
+    {
+      source: "Medium",
+      date: "Jun 10, 2017",
+      title: "The All-Seeing",
+      url: "https://medium.com/@sarmadsabih/the-all-seeing-76b0104dfe53",
+      preview: "Who could have imagined back in the day that we’d be able to record our whole life digitally. Many of the things we do on the Internet are recorded somewhere.",
+      image: "images/blogs/sarmad_sabih_all_seeing.jpg",
+    },
+    {
+      source: "Medium",
+      date: "Aug 1, 2017",
+      title: "Cost Of A Balanced Life And Afterlife",
+      url: "https://medium.com/@sarmadsabih/cost-of-a-balanced-life-and-after-life-2fe704086dda",
+      preview: "I’m seeing people in the west like DHH talking more and more about a balanced life, taking on the likes of Apple and Microsoft. Their sleep deprivation antics are damaging people and setting...",
+      image: "images/blogs/sarmad_sabih_cost_of_balanced_life.jpg",
+    },
+    {
+      source: "Medium",
+      date: "Sep 8, 2017",
+      title: "My 10Pearls Journey",
+      url: "https://medium.com/@sarmadsabih/my-10pearls-journey-b6b78f6c9e1",
+      preview: "I’ve resigned from the post of Senior Software Developer at TenPearls and currently serving the notice period. I want to reflect on what a wonderful journey it was of about 2.5 years.",
+      image: "images/blogs/sarmad_sabih_10pearls_journey.jpg",
+    },
+    {
+      source: "Medium",
+      date: "Sep 27, 2017",
+      title: "A Brief Guide To Learning Ruby on Rails",
+      url: "https://medium.com/@sarmadsabih/a-brief-guide-to-learning-ruby-on-rails-b5c0e32acabb",
+      preview: "I was tasked to compile a brief yet comprehensive guide to help newbies learn Ruby on Rails at 10Pearls, and I came up with this. I haven’t spent much time on it, though I feel this...",
+      image: "images/blogs/sarmad_sabih_learning_ror.jpg",
+    },
+  ]
 // Data
 
 $(document).ready(function(){
