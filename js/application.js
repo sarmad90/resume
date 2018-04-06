@@ -362,6 +362,22 @@
       preview: "I was tasked to compile a brief yet comprehensive guide to help newbies learn Ruby on Rails at 10Pearls, and I came up with this. I haven’t spent much time on it, though I feel this...",
       image: "images/blogs/sarmad_sabih_learning_ror.jpg",
     },
+    {
+      source: "Medium",
+      date: "Nov 26, 2017",
+      title: "My Bad Experience With Upwork",
+      url: "https://medium.com/@sarmadsabih/my-bad-experience-with-upwork-a19909925d6e",
+      preview: "I’m Ruby on Rails senior software engineer. I get a lot of work requests through LinkedIn and that’s normal for people in our field. I got a client through LinkedIn who wanted my help...",
+      image: "images/blogs/sarmad_sabih_my_bad_experience_with_upwork.jpg",
+    },
+    {
+      source: "Medium",
+      date: "Mar 26, 2018",
+      title: "The Myth Of “Lack Of Commitment” In Software...",
+      url: "https://medium.com/@sarmadsabih/the-myth-of-lack-of-commitment-in-software-industry-of-developing-countries-17e62af10402",
+      preview: "Employers and managers expect employees to go the extra mile. Primarily because it is a logical thing for anyone doing what they love. In the field of software it is perceived that the...",
+      image: "images/blogs/sarmad_sabih_the_myth_of_lack_of_commitment_in_software_industry_of_developing_countries.jpg",
+    },
   ]
 // Data
 
@@ -497,6 +513,27 @@ $(document).ready(function(){
     $("#interests .interest-embeds").html(returnHtml);
   };
 
+  function renderBlogs() {
+    var returnHtml = "";
+    $.each(blogs.reverse(), function(index, blog) {
+      returnHtml += '<div class="col-sm-6">';
+      returnHtml += '<div class="blog-content">';
+      returnHtml += '<img src="' + blog.image + '" alt="">';
+      returnHtml += '<div class="blog-detail">';
+      returnHtml += '<h4>' + blog.source + '</h4>';
+      returnHtml += "<h3><a href='" + blog.url + "' target='_blank'>" + blog.title + "</a></h3>";
+      returnHtml += '<ul class="ul-detail">';
+      returnHtml += '<li><i class="fa fa-calendar-check-o"></i>' + blog.date + '</li>';
+      returnHtml += '</ul>';
+      returnHtml += '<p>' + blog.preview + '</p>';
+      returnHtml += "<a href='" + blog.url + "'><span class='read-more'>READ MORE</span></a>";
+      returnHtml += '</div>';
+      returnHtml += '</div>';
+      returnHtml += '</div>';
+    });
+    $(".blogs").html(returnHtml);
+  };
+
 
 
   renderExperience();
@@ -506,4 +543,5 @@ $(document).ready(function(){
   renderCertificates();
   renderFacebookEmbeds();
   renderInterestEmbeds();
+  renderBlogs();
 });
