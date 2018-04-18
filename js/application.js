@@ -32,7 +32,7 @@
     },
     {
       "company_name": "CreativeChaos",
-      "designation": "Associate Principal Software Engineer",
+      "designation": "Principal Software Engineer",
       "company_intro": "We are Lean. We are Agile. We enable clients in 20 countries to outperform the competition and stay ahead of the innovation curve. Headquartered in San Francisco with delivery capabilities across the globe Founded in 2000. 400+ full time associates globally. We use creativity, passion, and our experience in technology to help our clients make smart decisions 1200+ successful projects across multiple industry verticals. 450+ customers globally. 60% business from Fortune 500 customers. We love working with startups to help create scalable platforms and remarkable digital assets Technology partners and investors in 15+ startups.",
       "my_experience": "I've just started working here as the senior most Ruby guy. Looking forward to great things.",
       "company_url": "http://www.csquareonline.com",
