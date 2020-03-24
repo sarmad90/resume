@@ -34,11 +34,31 @@
       "company_name": "CreativeChaos",
       "designation": "Principal Software Engineer",
       "company_intro": "We are Lean. We are Agile. We enable clients in 20 countries to outperform the competition and stay ahead of the innovation curve. Headquartered in San Francisco with delivery capabilities across the globe Founded in 2000. 400+ full time associates globally. We use creativity, passion, and our experience in technology to help our clients make smart decisions 1200+ successful projects across multiple industry verticals. 450+ customers globally. 60% business from Fortune 500 customers. We love working with startups to help create scalable platforms and remarkable digital assets Technology partners and investors in 15+ startups.",
-      "my_experience": "I've just started working here as the senior most Ruby guy. Looking forward to great things.",
+      "my_experience": "Worked on LendingHome. A US based consumer and business purpose homes mortgage provider. Team augmentation with the on-shore developers working across different timezones. Developing and designing new and complex features, maintaining the existing ones, fixing bugs and test automation. Worked on KloseCare. A health care solution related to diabetic diseases. Developed the live chatting module using ActionCable. Worked on WILLPORTtrust. WILLPORTtrust is the first deployment platform that allows for the electronic scheduling and transferring of money with attached gifts and memories, now and over an extended period of time. Worked on Litterati. A global community in over 117 countries cleaning up the planet, one piece at a time.",
       "company_url": "http://www.csquareonline.com",
       "from": "Oct 2017",
-      "to": "Current",
+      "to": "Oct 2019",
       iconUrl: "images/clients/cc-logo.png",
+    },
+    {
+      "company_name": "GameList",
+      "designation": "Founder & CEO",
+      "company_intro": "Location based community platform for gamers.",
+      "my_experience": "As a gamer myself, I've found this startup which is in very early stages at the moment.",
+      "company_url": "http://www.gamelist.club",
+      "from": "Jun 2019",
+      "to": "Current",
+      iconUrl: "images/clients/gamelist.jpg",
+    },
+    {
+      "company_name": "Mikaels Labs",
+      "designation": "Software Architect",
+      "company_intro": "We believe that senior developers, when given creative freedom, deliver remarkable outcomes.",
+      "my_experience": "Worked on two projects so far. Consorto a European commercial real estate markeplace and FootBalance a Finland based startup to help athletes and common people get foot care.",
+      "company_url": "http://mikaels.com",
+      "from": "Nov 2019",
+      "to": "Current",
+      iconUrl: "images/clients/mikaels.png",
     },
   ]
   var educationData = [
@@ -152,6 +172,15 @@
       filters: "ruby-on-rails js",
     },
     {
+      name: "GameList",
+      thumbImageUrl: "images/portfolio/gamelist-square.png",
+      imageUrl: "images/portfolio/gamelist.png",
+      url: "https://www.gamelist.club/",
+      filters: "ruby-on-rails js react-js",
+      info: "Location based community platform for gamers.",
+      iconUrl: "images/clients/gamelist.jpg",
+    },
+    {
       name: "LendingHome",
       thumbImageUrl: "images/portfolio/lendinghome-square.png",
       imageUrl: "images/portfolio/lendinghome.png",
@@ -159,6 +188,51 @@
       filters: "ruby-on-rails js react-js",
       info: "We all dream of owning a home, but there’s something giving many of us pause—the thought of going through the obstacle course of getting a mortgage. It’s much harder than it should be to get a “home, sweet home” of our own. Why? Because the current process thrives on chaos and confusion. So much so that it leaves homebuyers overwhelmed and stressed out. Should it really be this difficult to put a roof over your head? A roof that you own? No. And that’s why we’re here. We’re out to simplify the complex world of mortgages. We know this is the moment you’ve been saving for. And we know buying a home is much more than a decision you live with—it’s a decision you live in. The path to homeownership is a big deal. So let’s fill it with clarity. With candor. And, in the process, let’s fill you with confidence. Let’s give you some control. We have the expertise and online tools homebuyers need to put them on a path that seamlessly takes them from pre-approval to contract to closing. All with the straightforward information and honest guidance they need to feel involved and empowered along the way. We’re LendingHome. We’re on a mission to revolutionize the world of mortgages and put the power, and the keys, where they belong—in your hands.",
       iconUrl: "images/clients/lh-logo-2.png",
+    },
+    {
+      name: "KloseCare",
+      thumbImageUrl: "images/portfolio/klose-care-square.png",
+      imageUrl: "images/portfolio/klose-care.png",
+      url: "https://klosecare.com",
+      filters: "ruby-on-rails js react-js",
+      info: "KloseCare is a US based health solution related to diabetic diseases.",
+      iconUrl: "images/clients/klose-care.png",
+    },
+    {
+      name: "WILLPORT Trust",
+      thumbImageUrl: "images/portfolio/willport-square.png",
+      imageUrl: "images/portfolio/willport.png",
+      url: "https://www.willporttrust.com",
+      filters: "ruby-on-rails js react-js",
+      info: "WILLPORT Trust is the first deployment platform that allows for the electronic scheduling and transferring of money with attached gifts and memories, now and over an extended period of time. You select a plan that is customized for your stage in life, then dictate when and how you would like to share and celebrate life’s special moments.",
+      iconUrl: "images/clients/willport.png",
+    },
+    {
+      name: "Litterati",
+      thumbImageUrl: "images/portfolio/litterati-square.png",
+      imageUrl: "images/portfolio/litterati.png",
+      url: "https://www.litterati.org",
+      filters: "ruby-on-rails js react-js",
+      info: "A global community in over 117 countries cleaning up the planet, one piece at a time.",
+      iconUrl: "images/clients/litterati.png",
+    },
+    {
+      name: "Consorto",
+      thumbImageUrl: "images/portfolio/consorto-square.png",
+      imageUrl: "images/portfolio/consorto.png",
+      url: "https://www.lendinghome.com/",
+      filters: "ruby-on-rails js react-js",
+      info: "Marketplace for European Commercial Real Estate. Connecting investors and verified brokers using targeted automation. Expand your network, source off-market properties.",
+      iconUrl: "images/clients/consorto.png",
+    },
+    {
+      name: "FootBalance",
+      thumbImageUrl: "images/portfolio/footbalance-square.png",
+      imageUrl: "images/portfolio/footbalance.png",
+      url: "https://www.footbalance.com",
+      filters: "ruby-on-rails js react-js",
+      info: "The story of Footbalance starts in 2003 with Erkki Hakkala, a physiotherapist specialized in podiatric medicine. An innovator by nature, Hakkala founded a foot and lower limb analysis clinic at the Diacor Medical Centre in Helsinki to develop more modern treatment methods that would better serve patients. Inventions to improve the well-being of people have never been in short supply, but for some reason our feet have been largely neglected.",
+      iconUrl: "images/clients/footbalance.png",
     },
   ]
   var certifiatesData = [
@@ -243,35 +317,35 @@
       imagePath: "images/certificates/sarmad_sabih_it_fair_1st_semester.jpeg",
     },
   ];
-  var facebookEmbeds = [
-    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fumerufaq%2Fposts%2F10208123152823787&width=500" width="500" height="664" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
-    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsyedsarmadsabih%2Fposts%2F10155877146981727&width=500" width="500" height="502" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
-    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10154369785121727%26set%3Da.10153175535171727.1073741849.709951726%26type%3D3&width=500" width="500" height="337" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
-    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10152011858356727%26set%3Da.493398561726.268594.709951726%26type%3D3&width=500" width="500" height="614" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
-    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsyedsarmadsabih%2Fposts%2F10152956057966727&width=500" width="500" height="595" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
-    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10152001056356727%26set%3Da.10152001008011727.1073741834.709951726%26type%3D3&width=500" width="500" height="338" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
-    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10152008143061727%26set%3Da.10150435598781727.352615.709951726%26type%3D3&width=500" width="500" height="444" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
-    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153258708271727%26set%3Da.10153175535171727.1073741849.709951726%26type%3D3&width=500" width="500" height="338" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
-    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153258708306727%26set%3Da.10153175535171727.1073741849.709951726%26type%3D3&width=500" width="500" height="338" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
-    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153368386501727%26set%3Da.10153175535171727.1073741849.709951726%26type%3D3&width=500" width="500" height="472" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
-    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153368386486727%26set%3Da.10153175535171727.1073741849.709951726%26type%3D3&width=500" width="500" height="594" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
-    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsyedsarmadsabih%2Fposts%2F10153553863431727&width=500" width="500" height="452" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
-    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153297355521727%26set%3Da.493398561726.268594.709951726%26type%3D3&width=500" width="500" height="380" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
-  ]
-  var interestEmbeds = [
-    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fkarachibodybuilding%2Fposts%2F471265096396593&width=500" width="500" height="626" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
-    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153324922171727%26set%3Dp.10153324922171727%26type%3D3&width=500" width="500" height="380" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
-    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsyedsarmadsabih%2Fposts%2F10153027198366727&width=500" width="500" height="503" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
-    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153175533426727%26set%3Da.10153175535171727.1073741849.709951726%26type%3D3&width=500" width="500" height="502" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
-    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153651794211727%26set%3Da.10150435598781727.352615.709951726%26type%3D3&width=500" width="500" height="486" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
-    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153186064381727%26set%3Da.10153175535171727.1073741849.709951726%26type%3D3&width=500" width="500" height="361" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
-    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153929946996727%26set%3Da.10153175535171727.1073741849.709951726%26type%3D3&width=500" width="500" height="337" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
-    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsyedsarmadsabih%2Fposts%2F10153332867156727&width=500" width="500" height="499" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
-    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153700886491727%26set%3Da.10153699129616727.1073741853.709951726%26type%3D3&width=500" width="500" height="501" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
-    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153711573436727%26set%3Da.10153699129616727.1073741853.709951726%26type%3D3&width=500" width="500" height="473" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
-    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153709553151727%26set%3Da.10153699129616727.1073741853.709951726%26type%3D3&width=500" width="500" height="380" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
-    '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153707076131727%26set%3Da.10153699129616727.1073741853.709951726%26type%3D3&width=500" width="500" height="502" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
-  ];
+  // var facebookEmbeds = [
+  //   '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fumerufaq%2Fposts%2F10208123152823787&width=500" width="500" height="664" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+  //   '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsyedsarmadsabih%2Fposts%2F10155877146981727&width=500" width="500" height="502" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+  //   '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10154369785121727%26set%3Da.10153175535171727.1073741849.709951726%26type%3D3&width=500" width="500" height="337" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+  //   '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10152011858356727%26set%3Da.493398561726.268594.709951726%26type%3D3&width=500" width="500" height="614" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+  //   '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsyedsarmadsabih%2Fposts%2F10152956057966727&width=500" width="500" height="595" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+  //   '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10152001056356727%26set%3Da.10152001008011727.1073741834.709951726%26type%3D3&width=500" width="500" height="338" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+  //   '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10152008143061727%26set%3Da.10150435598781727.352615.709951726%26type%3D3&width=500" width="500" height="444" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+  //   '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153258708271727%26set%3Da.10153175535171727.1073741849.709951726%26type%3D3&width=500" width="500" height="338" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+  //   '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153258708306727%26set%3Da.10153175535171727.1073741849.709951726%26type%3D3&width=500" width="500" height="338" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+  //   '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153368386501727%26set%3Da.10153175535171727.1073741849.709951726%26type%3D3&width=500" width="500" height="472" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+  //   '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153368386486727%26set%3Da.10153175535171727.1073741849.709951726%26type%3D3&width=500" width="500" height="594" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+  //   '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsyedsarmadsabih%2Fposts%2F10153553863431727&width=500" width="500" height="452" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+  //   '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153297355521727%26set%3Da.493398561726.268594.709951726%26type%3D3&width=500" width="500" height="380" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+  // ]
+  // var interestEmbeds = [
+  //   '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fkarachibodybuilding%2Fposts%2F471265096396593&width=500" width="500" height="626" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+  //   '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153324922171727%26set%3Dp.10153324922171727%26type%3D3&width=500" width="500" height="380" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+  //   '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsyedsarmadsabih%2Fposts%2F10153027198366727&width=500" width="500" height="503" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+  //   '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153175533426727%26set%3Da.10153175535171727.1073741849.709951726%26type%3D3&width=500" width="500" height="502" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+  //   '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153651794211727%26set%3Da.10150435598781727.352615.709951726%26type%3D3&width=500" width="500" height="486" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+  //   '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153186064381727%26set%3Da.10153175535171727.1073741849.709951726%26type%3D3&width=500" width="500" height="361" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+  //   '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153929946996727%26set%3Da.10153175535171727.1073741849.709951726%26type%3D3&width=500" width="500" height="337" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+  //   '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsyedsarmadsabih%2Fposts%2F10153332867156727&width=500" width="500" height="499" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+  //   '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153700886491727%26set%3Da.10153699129616727.1073741853.709951726%26type%3D3&width=500" width="500" height="501" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+  //   '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153711573436727%26set%3Da.10153699129616727.1073741853.709951726%26type%3D3&width=500" width="500" height="473" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+  //   '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153709553151727%26set%3Da.10153699129616727.1073741853.709951726%26type%3D3&width=500" width="500" height="380" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+  //   '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10153707076131727%26set%3Da.10153699129616727.1073741853.709951726%26type%3D3&width=500" width="500" height="502" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+  // ];
 
   var blogs = [
     {
@@ -541,7 +615,7 @@ $(document).ready(function(){
   renderProjects();
   renderClients();
   renderCertificates();
-  renderFacebookEmbeds();
-  renderInterestEmbeds();
+  // renderFacebookEmbeds();
+  // renderInterestEmbeds();
   renderBlogs();
 });
